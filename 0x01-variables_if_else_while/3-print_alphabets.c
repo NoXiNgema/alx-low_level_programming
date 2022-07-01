@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char ch[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	char ch[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		int r;
 
-	if (r = 0;r < 52; r++)
+	if (r = 0; r < 52; r++)
 	{
 		putchar(ch[r]);
 	}
