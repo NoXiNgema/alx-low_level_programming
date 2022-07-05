@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - Print _putchar
@@ -13,8 +13,8 @@ int main(void)
 	size = sizeof(str) / sizeof(int);
 	for (position = 0; position < size; position++)
 	{
-		putchar(str[position]);
+		_putchar(str[position]);
 	}
-	putchar("\n");
+	_putchar('\n');
 	return (0);
 }
