@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main_0.c"
 
 /**
  * main - Shows 1 if the input is a
@@ -8,9 +9,8 @@
  *
  * Return: 1 for letters. 0 for the rest
  */
-int _isalpha(int)
+int _isalpha(int c)
 {
-	int c;
 
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
