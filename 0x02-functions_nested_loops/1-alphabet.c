@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 	int Alp;
 
-	for (Alp =97; Alp <= 122; Alp++)
+	for (Alp = 97; Alp <= 122; Alp++)
 	{
 		_putchar(Alp);
 	}
