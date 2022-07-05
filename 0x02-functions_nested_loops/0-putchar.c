@@ -13,8 +13,8 @@ int main(void)
 	size = sizeof(str) / sizeof(int);
 	for (position = 0; position < size; position++)
 	{
-		_putchar(str[position]);
+		putchar(str[position]);
 	}
-	_putchar("\n");
+	putchar("\n");
 	return (0);
 }
