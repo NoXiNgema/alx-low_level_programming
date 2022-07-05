@@ -1,16 +1,15 @@
 #include "main.h"
-#include "1-main.c"
 
 /**
  * main - Prints the alphabet, in lowercase, followed by a new line
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 void print_alphabet(void)
 {
-	int Alp;
+	char Alp;
 
-	for (Alp = 97; Alp <= 122; Alp++)
+	for (Alp = 'a'; Alp <= 'z'; Alp++)
 	{
 		_putchar(Alp);
 	}
