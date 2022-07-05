@@ -7,6 +7,11 @@
  */
 void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int Alp;
+
+	for (Alp =97; Alp <= 122; Alp++)
+	{
+		putchar(Alp);
+	}
+	putchar('\n');
 }
