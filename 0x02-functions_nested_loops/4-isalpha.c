@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * checks for alphabetic character
+ * main - Shows 1 if the input is a
+ * letter else, shows 0
  *
  * @c: The character in ASCII code
  *
