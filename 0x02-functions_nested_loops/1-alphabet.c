@@ -7,12 +7,6 @@
  */
 int main(void)
 {
-	int Alp;
-
-	for (Alp = 97; Alp <= 122; Alp++)
-	{
-		_putchar(Alp);
-	}
-	_putchar('\n');
+	print_alphabet();
 	return (0);
 }
