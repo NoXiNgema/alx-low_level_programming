@@ -6,7 +6,7 @@
  *  @n: Pointer to a value
  *  Return: no return
  */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
