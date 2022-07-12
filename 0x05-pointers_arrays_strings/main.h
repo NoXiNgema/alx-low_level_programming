@@ -7,6 +7,7 @@ void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
+void print_array(int *a, int n);
 [master 06f18f8] vi 7-puts_half.c
  2 files changed, 28 insertions(+)
  create mode 100644 0x05-pointers_arrays_strings/7-puts_half.c
