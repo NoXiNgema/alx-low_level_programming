@@ -18,5 +18,5 @@ char *string_toupper(char *K)
 		}
 		count++;
 	}
-	return (s);
+	return (K);
 }
