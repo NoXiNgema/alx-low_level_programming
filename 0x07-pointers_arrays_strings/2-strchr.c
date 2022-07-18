@@ -18,12 +18,10 @@ char *_strchr(char *s, char c)
 		{
 			return ((s + X));
 		}
-	
 	}
 	if (*(s + X) == c)
 	{
 		return (s + X);
 	}
 	return ('\0');
- 
 }
