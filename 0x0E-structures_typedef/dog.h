@@ -2,10 +2,11 @@
 #define DOG_H
 
 /**
- * Define a new type struct dog with the following elements
- * name, type = char *
- * age, type = float
- * owner, type = char *
+ * struct dog - Stores variables with information on a dog
+ * Description: Define a new type struct dog with the following elements
+ * @name: type = char *
+ * @age: type = float
+ * @owner: type = char *
  */
 struct dog
 {
