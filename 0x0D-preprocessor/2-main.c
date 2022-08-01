@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - a program that prints the name of the file it
@@ -8,7 +9,13 @@
  */
 int main(void)
 {
-	prinf("%s\n", __FILE__);
+	int k;
+	char i[] = __FILE__;
 
-	return(0);
+	for (k = 0; i[k] != '\0'; k++)
+	{
+		_putchar(i[k]);
+	}
+
+	return (0);
 }
