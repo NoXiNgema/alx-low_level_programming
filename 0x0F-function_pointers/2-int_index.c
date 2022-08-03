@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -8,7 +7,7 @@
  * @array: input integer array.
  * @size: size of the array
  *
- * Return: the index of the first element 
+ * Return: the index of the first element
  * for which the cmp function does not return 0
  * If no element matches, return -1
  * If size <= 0, return -1
