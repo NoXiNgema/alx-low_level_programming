@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * print_all - Entry Point
